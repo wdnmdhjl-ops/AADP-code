@@ -16,3 +16,9 @@
 5. Record the real URL, tag/commit, checkpoint scope, and validation command in the manuscript and response letter.
 
 The current local package is prepared, but no public URL is asserted until those steps are completed.
+
+## Current access
+
+The package has been uploaded to the public repository: https://github.com/wdnmdhjl-ops/AADP-code
+
+The repository contains the complete source snapshot as `aadp_code_release_20261115.zip`. A clean-machine reproduction and checkpoint download have not yet been completed, so the response letter should state the actual validation scope rather than claim a full independent reproduction.

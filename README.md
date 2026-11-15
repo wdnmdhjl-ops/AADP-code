@@ -65,3 +65,7 @@ The repository contains upstream Detectron2/CD-ViTO components and their notices
 - `logs/` contains two sanitized seed-5 evaluation logs, one for DIOR and one for Clipart1k.
 - `output/examples/` contains the matching small JSON metric summaries. Checkpoints and datasets remain excluded.
 - `demo/` contains a path-independent COCO prediction visualizer and its command example.
+
+## Code availability
+
+The reviewer-oriented source archive is publicly available at [AADP-code](https://github.com/wdnmdhjl-ops/AADP-code). The repository root contains this README, the license and notice files, and `aadp_code_release_20261115.zip`, which contains the complete source snapshot. The archive excludes datasets, pretrained weights, checkpoints, and private experiment outputs.
