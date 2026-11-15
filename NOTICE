@@ -1,0 +1,3 @@
+# Notice
+
+This release contains source derived from the upstream CDFSOD-benchmark/CD-ViTO project and Detectron2. Their copyright and license notices are retained in the source tree and `LICENSE`. The AADP-specific modifications are distributed as part of this research code snapshot. Dataset files, pretrained weights, checkpoints, and generated outputs are excluded and remain subject to their own licenses.
