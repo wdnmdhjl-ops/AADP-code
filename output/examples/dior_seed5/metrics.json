@@ -1,0 +1,15 @@
+{
+  "dataset": "DIOR",
+  "seed": 5,
+  "shot": 10,
+  "backbone": "ViT-L",
+  "C": 12.8,
+  "alpha_iou": 0.5,
+  "batch_size": 16,
+  "base_lr": 0.002,
+  "max_iter": 500,
+  "test_images": 5000,
+  "metrics": {"AP": 30.64964070014592, "AP50": 47.191414341045615, "AP75": 32.59051073173553, "APs": 0.6276021675519341, "APm": 11.961089408929501, "APl": 40.69262583165607},
+  "checkpoint": "model_final.pth",
+  "note": "Representative seed-5 result from the verified experiment archive; checkpoint and dataset are not redistributed."
+}
