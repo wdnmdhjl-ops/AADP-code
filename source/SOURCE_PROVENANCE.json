@@ -1,0 +1,20 @@
+{
+  "release_name": "AADP code review snapshot",
+  "snapshot_date": "2026-11-15",
+  "source_repository": "authorized server-side project checkout",
+  "source_head": "dd3860c9eeaf6435b5a68f18478b401be2d2f56a",
+  "working_tree_source_change": "detectron2/data/datasets/builtin.py registers DIOR, FISH, NEUDET and UODD in addition to ArTaxOr and clipart1k",
+  "method_entry": "detectron2/modeling/meta_arch/devit.py",
+  "parameter_entry": {
+    "C": "CDFSOD_NWD_CONSTANT",
+    "alpha_iou": "CDFSOD_IOU_RATIO"
+  },
+  "included": ["source code", "configs", "training and evaluation utilities", "requirements", "license and notices"],
+  "excluded": ["datasets", "pretrained weights", "checkpoints", "generated logs", "experiment outputs", "private server credentials and paths", "git metadata", "Python caches"],
+  "validation": {
+    "sensitive_string_scan": "performed locally",
+    "clean_environment_reproduction": "not performed in this packaging step",
+    "public_url": null
+  }
+}
+

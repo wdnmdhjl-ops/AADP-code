@@ -1,0 +1,17 @@
+# Ignore local research assets
+weights/
+datasets/
+output/
+outputs/
+*.pth
+*.pkl
+*.pt
+*.log
+__pycache__/
+*.pyc
+*.npy
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.bak

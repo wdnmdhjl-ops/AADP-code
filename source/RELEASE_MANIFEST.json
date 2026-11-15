@@ -1,0 +1,1618 @@
+{
+  "release": "aadp_code_release_20261115",
+  "source_head": "dd3860c9eeaf6435b5a68f18478b401be2d2f56a",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 148,
+      "sha256": "a7b85436c19f585e7beae85cf2fa2b4743bc3d658f6220d4e02c8cf16dc408de"
+    },
+    {
+      "path": "build_prototypes.sh",
+      "bytes": 1013,
+      "sha256": "936574961031599ccb3544b21a76a1e505bc7002d6bfad2d1609362fac63a073"
+    },
+    {
+      "path": "cam_demo.sh",
+      "bytes": 596,
+      "sha256": "cd8740ce659ad20352509bd5cc2060878a3845542cd462bbce87ad9f1063b8a7"
+    },
+    {
+      "path": "configs/aadp/vitl_shot10_clipart1k.yaml",
+      "bytes": 1178,
+      "sha256": "f0f9e24ebf4e95e5a26c4dfe71c720adde15803aaa588c349a8587849564581c"
+    },
+    {
+      "path": "configs/aadp/vitl_shot10_dior.yaml",
+      "bytes": 1116,
+      "sha256": "ad26044b0be82280337b4b0299d5613c27e687eba7f3606e091e6142159ff37f"
+    },
+    {
+      "path": "configs/artaxor/vitb_shot10_artaxor_finetune.yaml",
+      "bytes": 1112,
+      "sha256": "08e641a2024e32fa9df4a8711168d8ba4bec04e24cc037839b1e14a083b8c622"
+    },
+    {
+      "path": "configs/artaxor/vitb_shot1_artaxor_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "6b52c5b75fd18af086a180546a533fc06adf32008c9336db3412ec377f9b4688"
+    },
+    {
+      "path": "configs/artaxor/vitb_shot5_artaxor_finetune.yaml",
+      "bytes": 1107,
+      "sha256": "e5bdb5fb308e2cd5af54ba11d76beec11b74dbcb173689861211d40ae44b66f3"
+    },
+    {
+      "path": "configs/artaxor/vitl_shot10_artaxor_finetune.yaml",
+      "bytes": 1125,
+      "sha256": "d3642baa9748ecf123255432ef1c4f414d11e2739e4fff2d3654ceb48454aece"
+    },
+    {
+      "path": "configs/artaxor/vitl_shot1_artaxor_finetune.yaml",
+      "bytes": 1116,
+      "sha256": "68efffdcbfe3c56a0c5517f59ccb9fd5a069dce02baee664b30a5179b83d133a"
+    },
+    {
+      "path": "configs/artaxor/vitl_shot5_artaxor_finetune.yaml",
+      "bytes": 1119,
+      "sha256": "b46b02fc430e2aa5c5632882160fcd85f9850134daa8df9d438b8e54e67b6238"
+    },
+    {
+      "path": "configs/artaxor/vits_shot10_artaxor_finetune.yaml",
+      "bytes": 1112,
+      "sha256": "18d97aa4458cbdaee52e43cd5e5e8cd7584b49223ae9eb794e09ef7dc2f23d91"
+    },
+    {
+      "path": "configs/artaxor/vits_shot1_artaxor_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "2475f908d182954f4273f65f9d80d555a2a6def10496411147c421328aafa6da"
+    },
+    {
+      "path": "configs/artaxor/vits_shot5_artaxor_finetune.yaml",
+      "bytes": 1107,
+      "sha256": "07dd4fe3be76bc43f3c4bfd555323c9433983a247a1503854244429e0831a85b"
+    },
+    {
+      "path": "configs/Base-RCNN-C4.yaml",
+      "bytes": 542,
+      "sha256": "bb83338807909e8adca18855c3d76e96c9523d30cadb7b0dc7218f82925c6f3e"
+    },
+    {
+      "path": "configs/Base-RCNN-FPN.yaml",
+      "bytes": 1318,
+      "sha256": "95306a7335903880e35b8c919a7daad1d8ce4b2c926a69506be1c7116a0799d7"
+    },
+    {
+      "path": "configs/clipart1k/vitb_shot10_clipart1k_finetune.yaml",
+      "bytes": 1119,
+      "sha256": "63bcfaf8a0b6d28ca0a5a9466ea94edc02cfb2866bb21d489df331bcdaf0b0ef"
+    },
+    {
+      "path": "configs/clipart1k/vitb_shot1_clipart1k_finetune.yaml",
+      "bytes": 1113,
+      "sha256": "41fb2ffda3ca94c6f80f2d9b9a61a4e8e2b016e3ce21ce163f7e5bc093eee3d4"
+    },
+    {
+      "path": "configs/clipart1k/vitb_shot5_clipart1k_finetune.yaml",
+      "bytes": 1115,
+      "sha256": "85e99099b7854160e18bb7767276b5321b8b25df596b38c59b8d9cb540413115"
+    },
+    {
+      "path": "configs/clipart1k/vitl_shot10_clipart1k_finetune.yaml",
+      "bytes": 1135,
+      "sha256": "b49de81d734fddc4823bfce7e28ab826a52c8ff4eb7134001d6dc1664fc7e782"
+    },
+    {
+      "path": "configs/clipart1k/vitl_shot1_clipart1k_finetune.yaml",
+      "bytes": 1126,
+      "sha256": "94b7b868d9ce94acc36363b9e7aa46f6dc4014d3de339a6992caa5bb4d98fce8"
+    },
+    {
+      "path": "configs/clipart1k/vitl_shot5_clipart1k_finetune.yaml",
+      "bytes": 1127,
+      "sha256": "a459a8c0e34a52d98dab97f9a7900a10d35325f7aeaafe071d4c10276dfbb575"
+    },
+    {
+      "path": "configs/clipart1k/vits_shot10_clipart1k_finetune.yaml",
+      "bytes": 1119,
+      "sha256": "277b5e5db3610d44bbe04c20a73f1ab0daeca4455c30591fd8eece99f3051dc6"
+    },
+    {
+      "path": "configs/clipart1k/vits_shot1_clipart1k_finetune.yaml",
+      "bytes": 1113,
+      "sha256": "604fa460760c156976b04f4da9fe7ffcadca421d980d6d4cdc4f4545ccf7e3fd"
+    },
+    {
+      "path": "configs/clipart1k/vits_shot5_clipart1k_finetune.yaml",
+      "bytes": 1115,
+      "sha256": "e2b002044e5734a8cc2abe55f641bf03f90ebdda579bd048469aad6f981c2ebc"
+    },
+    {
+      "path": "configs/dior/vitb_shot10_dior_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "deafc26cb546ce2cf0f0a826fab1ce6df2946979b18a9e2a37eaf6fbaad9dcf1"
+    },
+    {
+      "path": "configs/dior/vitb_shot1_dior_finetune.yaml",
+      "bytes": 1098,
+      "sha256": "1767837ef77000a60289f868bfa4aeb63aa0dee20b5bb26df8c5859eaf1255e6"
+    },
+    {
+      "path": "configs/dior/vitb_shot5_dior_finetune.yaml",
+      "bytes": 1100,
+      "sha256": "9d8b8e940b6f6c4c858c07196aff2fa5d55703ec1ef2466a7074817a6db803b2"
+    },
+    {
+      "path": "configs/dior/vitl_shot10_dior_finetune.yaml",
+      "bytes": 1116,
+      "sha256": "ad26044b0be82280337b4b0299d5613c27e687eba7f3606e091e6142159ff37f"
+    },
+    {
+      "path": "configs/dior/vitl_shot1_dior_finetune.yaml",
+      "bytes": 1110,
+      "sha256": "3e67ccb1c61e191bf874909925ea40aa807e4d4336351008db7eb430ed605240"
+    },
+    {
+      "path": "configs/dior/vitl_shot5_dior_finetune.yaml",
+      "bytes": 1112,
+      "sha256": "5cb98ff055ab14eff4d750cfd4328293f040e20069aa15f003aa63a7eb1147a4"
+    },
+    {
+      "path": "configs/dior/vits_shot10_dior_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "34cbb2a288798d028e5df33a685d9ec6a588fac5b651adb0a59cb05db52b8f45"
+    },
+    {
+      "path": "configs/dior/vits_shot1_dior_finetune.yaml",
+      "bytes": 1098,
+      "sha256": "cd5f840f5410843c82ab49c38ca82ff17488bdcb5e14f85db0faed869bedab7e"
+    },
+    {
+      "path": "configs/dior/vits_shot5_dior_finetune.yaml",
+      "bytes": 1100,
+      "sha256": "133da37ded378f1d37eaa05e3a960405d21881c7b75e972e8f3229557ccea4ad"
+    },
+    {
+      "path": "configs/fish/vitb_shot10_fish_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "ec00eb6be3cb62d767e51c6986d4d12442bfe8c9f3d9166769ff355dad9bb0c2"
+    },
+    {
+      "path": "configs/fish/vitb_shot1_fish_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "c56a90ec28a2209a13f3c4e1d70f69276d9938415be5d15e373be2ce3d7c60c8"
+    },
+    {
+      "path": "configs/fish/vitb_shot5_fish_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "fea3d35d5712154041b7867620fb53f78381644ff387b55a09184bfe8af20c6b"
+    },
+    {
+      "path": "configs/fish/vitl_shot10_fish_finetune.yaml",
+      "bytes": 1244,
+      "sha256": "fd63fb356fe57150c47fbb970d6ebec616ca7752efd1126aa8de6aa5b79af4c7"
+    },
+    {
+      "path": "configs/fish/vitl_shot1_fish_finetune.yaml",
+      "bytes": 1114,
+      "sha256": "df89f954ba719a2b670dc1bbe81f53ef1c20d1afb96f54ad1e10b064cefa3a77"
+    },
+    {
+      "path": "configs/fish/vitl_shot5_fish_finetune.yaml",
+      "bytes": 1114,
+      "sha256": "c8733951c12eec2eff7eb6e3b8c078fd1706240b59bfc4443c970d58fe6f2fd2"
+    },
+    {
+      "path": "configs/fish/vits_shot10_fish_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "e9cdc127a369f7a88035dbfa208240f865fdfdca17cf4c1364ae099ffbcb73a5"
+    },
+    {
+      "path": "configs/fish/vits_shot1_fish_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "0129d9131d14161d5ecc3913ee995c254777f4f914f02dbbea795e326d64e86a"
+    },
+    {
+      "path": "configs/fish/vits_shot5_fish_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "08630f5626fd9682bf289a91d4aea5a50fafa198a30262bce3082be4c0cc9fc8"
+    },
+    {
+      "path": "configs/foggy/vitl_shot10_foggy_finetune.yaml",
+      "bytes": 1400,
+      "sha256": "ead51bea0dc7417cc3c171b17584afbb9e9f1f6931b23b0478106fc7c5675171"
+    },
+    {
+      "path": "configs/foggy/vitl_shot1_foggy_finetune.yaml",
+      "bytes": 1114,
+      "sha256": "d9ce8ae0b40483b1306352a39b9a2f9b9e74f7d0a238c8d8d2acd673f8247dbd"
+    },
+    {
+      "path": "configs/foggy/vitl_shot5_foggy_finetune.yaml",
+      "bytes": 1115,
+      "sha256": "89aad57b71dcbc826b494b94afe9092c486aa805995d033774a81258e7f393c4"
+    },
+    {
+      "path": "configs/foggy/vitl_shot8_foggy_finetune.yaml",
+      "bytes": 1248,
+      "sha256": "b88fc246422b0423e4bce9f0093883e1d7c15e2e3174c06fc5ac0cf51b610990"
+    },
+    {
+      "path": "configs/neu-det/vitb_shot10_neu-det_finetune.yaml",
+      "bytes": 1109,
+      "sha256": "a01a3f12560c14822741cbedd76e199f7a5af6104d93128b844baea32ae21b4b"
+    },
+    {
+      "path": "configs/neu-det/vitb_shot1_neu-det_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "be01e3326c9d7cd4c01494ca6ce6b3d4fcf591bf759c0f1bf9ff58a4e849367f"
+    },
+    {
+      "path": "configs/neu-det/vitb_shot5_neu-det_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "7933611eaf73f452b18e8f580d5c21cbd9b2a5776bac16e6267b72e8418f5c3d"
+    },
+    {
+      "path": "configs/neu-det/vitl_shot10_neu-det_finetune.yaml",
+      "bytes": 1121,
+      "sha256": "45a9b19085f8d049c517d6a044e6e1ccc2af92eb2e854dd94fdce735b62b7b87"
+    },
+    {
+      "path": "configs/neu-det/vitl_shot1_neu-det_finetune.yaml",
+      "bytes": 1113,
+      "sha256": "f19a210a47d6d1932a3976e498e5bfc847a76df280d57c81fec817eaacb7250a"
+    },
+    {
+      "path": "configs/neu-det/vitl_shot5_neu-det_finetune.yaml",
+      "bytes": 1116,
+      "sha256": "ee26b779ee2f773843d1e3826f782e5c4565719b0157989ce762c7ae5e6e46e4"
+    },
+    {
+      "path": "configs/neu-det/vits_shot10_neu-det_finetune.yaml",
+      "bytes": 1109,
+      "sha256": "1da8e50100779203db64faf9c2561b5a33362a39be08bfa92a1c6bacddbbcf9f"
+    },
+    {
+      "path": "configs/neu-det/vits_shot1_neu-det_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "fb5dced228ac581d78d721e42244758c5f14d954e7f944aa3a9eacee3e4bb2b7"
+    },
+    {
+      "path": "configs/neu-det/vits_shot5_neu-det_finetune.yaml",
+      "bytes": 1104,
+      "sha256": "4d0a0efe359f6ffe20088d286828230b6e0a0419771d85f1d02992a39934d216"
+    },
+    {
+      "path": "configs/RPN/mask_rcnn_R_50_C4_1x_fewshot_14.yaml",
+      "bytes": 247,
+      "sha256": "e2f10f04fad6ee3a58960d3808696ba4aafc1b1b4626939b19c52460f93c82c7"
+    },
+    {
+      "path": "configs/RPN/mask_rcnn_R_50_C4_1x_oneshot_s1.yaml",
+      "bytes": 286,
+      "sha256": "f82c9c8b416ed7d8bcc274fdd4cd2e2022a473bfaa2394bdb269cd4e375d09d6"
+    },
+    {
+      "path": "configs/RPN/mask_rcnn_R_50_C4_1x_oneshot_s2.yaml",
+      "bytes": 286,
+      "sha256": "8172d4bc9bea966d2159614e1c3e95245c22b2bb2c51da30f3be18cf076b4ff4"
+    },
+    {
+      "path": "configs/RPN/mask_rcnn_R_50_C4_1x_oneshot_s3.yaml",
+      "bytes": 286,
+      "sha256": "d7db68194f1e523b73d0b3f234f0ea35a8fec3a9383be095ed672c952ec82367"
+    },
+    {
+      "path": "configs/RPN/mask_rcnn_R_50_C4_1x_oneshot_s4.yaml",
+      "bytes": 286,
+      "sha256": "a2c9042d3db41ac4d2156fc9051047d8445098b31515657f8677aa9884254603"
+    },
+    {
+      "path": "configs/RPN/mask_rcnn_R_50_C4_1x_ovd_FSD.yaml",
+      "bytes": 277,
+      "sha256": "c0d8d08d9faee7f91a357f0b4da8b0e492da126822c291f5f62eae2a241666a5"
+    },
+    {
+      "path": "configs/RPN/mask_rcnn_R_50_FPN_1x.yaml",
+      "bytes": 579,
+      "sha256": "892863d7c0a333c8d9c12c26c01855686a1976bcc71553ba8f1d1710fb39de9d"
+    },
+    {
+      "path": "configs/RPN/rpn_R_50_C4_1x.yaml",
+      "bytes": 243,
+      "sha256": "340b7912c83f7a522056b70ae77673f70120bd38eaad0af29b0c18ad4615cb93"
+    },
+    {
+      "path": "configs/uodd/vitb_shot10_uodd_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "f950ed7bc78fe1b034f542ba0d01c3176280ae342f0df52cc847f6fe27210f2a"
+    },
+    {
+      "path": "configs/uodd/vitb_shot1_uodd_finetune.yaml",
+      "bytes": 1095,
+      "sha256": "5a71a50fbd2cecb83984cf7dc0d45792a97b25a71002be4177e52c47fd94cabd"
+    },
+    {
+      "path": "configs/uodd/vitb_shot5_uodd_finetune.yaml",
+      "bytes": 1095,
+      "sha256": "1eabd6a94a144f235406b5ad3fabc00360451664b78ae6519ee3bd1a1bddc963"
+    },
+    {
+      "path": "configs/uodd/vitl_shot10_uodd_finetune.yaml",
+      "bytes": 1114,
+      "sha256": "ae5fb5ff67657c8f66b039a44c13e695ca4305780fbd9ae67431662876b46994"
+    },
+    {
+      "path": "configs/uodd/vitl_shot1_uodd_finetune.yaml",
+      "bytes": 1107,
+      "sha256": "fe1be3f3995a5d919d12fbbdda51bec50cf4847585568a73208628b768e0ac8a"
+    },
+    {
+      "path": "configs/uodd/vitl_shot5_uodd_finetune.yaml",
+      "bytes": 1107,
+      "sha256": "37c18cd02ba6946fe783876372536579d3f591bf1167a66d7c83de05347451b2"
+    },
+    {
+      "path": "configs/uodd/vits_shot10_uodd_finetune.yaml",
+      "bytes": 1101,
+      "sha256": "e499c418a3f5c335bc861afd36e2279322ceb4db427ae0ee1fc3afd37a1ffeaf"
+    },
+    {
+      "path": "configs/uodd/vits_shot1_uodd_finetune.yaml",
+      "bytes": 1095,
+      "sha256": "d6937443d87ed5f4da5c3f762ae3eaae111995c9f892c33316f35a8211020491"
+    },
+    {
+      "path": "configs/uodd/vits_shot5_uodd_finetune.yaml",
+      "bytes": 1095,
+      "sha256": "d1079a89c8b21ff43939cf17dcf5f219e5695a38f77ea39b6e9fb5bfa76ea075"
+    },
+    {
+      "path": "demo/demo.py",
+      "bytes": 2277,
+      "sha256": "fff69576b007a8686bbc925e719f4a2c55b6ce46bd35c2838710cf2e3272e13f"
+    },
+    {
+      "path": "demo/README.md",
+      "bytes": 433,
+      "sha256": "c5f6039d27115b0271f2812ea82555f655856d6da62c5f032f33c6b6887288cc"
+    },
+    {
+      "path": "detectron2/.DS_Store",
+      "bytes": 6148,
+      "sha256": "e85b766c4dc68758411961ecf500baa06c5b67863938fbbcd070912148314b2c"
+    },
+    {
+      "path": "detectron2/__init__.py",
+      "bytes": 265,
+      "sha256": "ccb28f4f08f9648ee67b2667dab6f24522d9e1359b057bbb8132a155e0195d38"
+    },
+    {
+      "path": "detectron2/checkpoint/__init__.py",
+      "bytes": 347,
+      "sha256": "4818fed258cf788aa4148e7fc7c5d43ca6865fe2ff9b9f5346ea1926f0017dca"
+    },
+    {
+      "path": "detectron2/checkpoint/c2_model_loading.py",
+      "bytes": 17770,
+      "sha256": "048dbc62dc2524782cd93c3e8f17415153b3dc59202ffcfae933f5bb724e8d31"
+    },
+    {
+      "path": "detectron2/checkpoint/catalog.py",
+      "bytes": 5685,
+      "sha256": "fcadef9d8e5b7208a9a585748d515821fa6ac7657abf2b164bbddce9d8033aec"
+    },
+    {
+      "path": "detectron2/checkpoint/clip_model_loading.py",
+      "bytes": 18567,
+      "sha256": "a704a07dfde8fc0c81745c5292396625e61073fd8abf5a922b2568fb2fe0699b"
+    },
+    {
+      "path": "detectron2/checkpoint/detection_checkpoint.py",
+      "bytes": 5962,
+      "sha256": "22f4d59e75517a6201ae005894a7f4eea083054fe920f77135e78314d646fec3"
+    },
+    {
+      "path": "detectron2/config/__init__.py",
+      "bytes": 599,
+      "sha256": "4448babfba2044cad5388981fa513664be317514800155d43407034c5f6c335f"
+    },
+    {
+      "path": "detectron2/config/compat.py",
+      "bytes": 7890,
+      "sha256": "d7bce845c7cd3827f22687d4b035fd830490f960dce4423484570192d573e9f2"
+    },
+    {
+      "path": "detectron2/config/config.py",
+      "bytes": 8732,
+      "sha256": "68717458e7dd676a3b37b9da52d3c11f6b4a8804e8be0477fe4cf846c81b4f0a"
+    },
+    {
+      "path": "detectron2/config/defaults.py",
+      "bytes": 36515,
+      "sha256": "01c8be146c634897f63549f42accf5990023f5d93a0e40f978eff7618c0f9b29"
+    },
+    {
+      "path": "detectron2/config/instantiate.py",
+      "bytes": 2719,
+      "sha256": "230068945274f6f732150dfd054c1c13f652d000360e0e9b430d6a94e6451540"
+    },
+    {
+      "path": "detectron2/config/lazy.py",
+      "bytes": 13791,
+      "sha256": "c312f8be85d1c5a21de13a48f8b99e41eb0e84a5604ec12ade33d6a03d9820bc"
+    },
+    {
+      "path": "detectron2/data/.DS_Store",
+      "bytes": 6148,
+      "sha256": "6e99421eca71fbcaf5cda45ff6a6620e0f06b9ca861f6cadb4b4ab1b45102c40"
+    },
+    {
+      "path": "detectron2/data/__init__.py",
+      "bytes": 625,
+      "sha256": "104158970419e6430df07ac590b9ca4b49d06c2667e76e3c31e539220b4d703f"
+    },
+    {
+      "path": "detectron2/data/build.py",
+      "bytes": 21622,
+      "sha256": "c03f7970ff74d3d0228dc0ecfcdb0b4b0714c06a381327640cc4aeaf15e76d60"
+    },
+    {
+      "path": "detectron2/data/catalog.py",
+      "bytes": 7224,
+      "sha256": "c3585ced4e6732fbe0334d7f99f9df377f2940d84e2b1a569c9cbd1192a41754"
+    },
+    {
+      "path": "detectron2/data/clip_build.py",
+      "bytes": 7339,
+      "sha256": "3a842d0ad88051b39dc180992e4b43be16089343349af4072899d4e4a4d34d99"
+    },
+    {
+      "path": "detectron2/data/clip_datasets/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "detectron2/data/clip_datasets/bpe_simple_vocab_16e6.txt.gz",
+      "bytes": 1356917,
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+    },
+    {
+      "path": "detectron2/data/clip_datasets/clip_img_txt_pair_tsv.py",
+      "bytes": 25545,
+      "sha256": "e776be77ac041eefe70e51fdd6ae050641157f12cc38db57a479b5139c054267"
+    },
+    {
+      "path": "detectron2/data/clip_datasets/clip_prompt_engineering.py",
+      "bytes": 12788,
+      "sha256": "a6f317062cff81795e1ce57ef821c9cb2920e191ec7e21c0d986136304f111ed"
+    },
+    {
+      "path": "detectron2/data/clip_datasets/clip_tsv.py",
+      "bytes": 8584,
+      "sha256": "50c02f7056d6f0eaf20c5a2650a711bb3f2847855a7e79d0f17c9bd2a99ef6ed"
+    },
+    {
+      "path": "detectron2/data/common.py",
+      "bytes": 6826,
+      "sha256": "95a159e2c8f16c80e9253b18cd05763160d964d536867f232611f30d5018afd2"
+    },
+    {
+      "path": "detectron2/data/dataset_mapper.py",
+      "bytes": 8857,
+      "sha256": "9adbd21ae22a210e37c161052154a9b52abf9610db281e33fa52ee72f07f89a9"
+    },
+    {
+      "path": "detectron2/data/datasets/__init__.py",
+      "bytes": 501,
+      "sha256": "703c0ecbac27c0cda69ccaf2776131561f3a27beac952d0d324fcb61a1d66fb7"
+    },
+    {
+      "path": "detectron2/data/datasets/bpe_simple_vocab_16e6.txt.gz",
+      "bytes": 1356917,
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+    },
+    {
+      "path": "detectron2/data/datasets/builtin.py",
+      "bytes": 15655,
+      "sha256": "eeef6b3cfac298ae821f27a70ba77c3a23bf3456fdace8bf4752d5c654bda344"
+    },
+    {
+      "path": "detectron2/data/datasets/builtin_meta.py",
+      "bytes": 37706,
+      "sha256": "dd85cc8473f2de3f4ac64da80db9e4b12b8a7ccf12828e08e7d7ffeceb80ffb4"
+    },
+    {
+      "path": "detectron2/data/datasets/cityscapes.py",
+      "bytes": 13167,
+      "sha256": "abb34c673faffe7e10eda81116be522bbdd327910cc2afa01652e96251ae7b13"
+    },
+    {
+      "path": "detectron2/data/datasets/cityscapes_panoptic.py",
+      "bytes": 7821,
+      "sha256": "507982156403829ceaf13e285e1a1c87088ed14c17b3a55d4ae17a6171729ddc"
+    },
+    {
+      "path": "detectron2/data/datasets/clip_prompt_utils.py",
+      "bytes": 15506,
+      "sha256": "25d8b5079d59c8232dd75ba226ed03e387e49480bc98742e8380bc1b6ede4409"
+    },
+    {
+      "path": "detectron2/data/datasets/coco.py",
+      "bytes": 23496,
+      "sha256": "e9045fd8db9db2385f31df759bdf557261c7c0a330e9b484c3ad15b8521433a9"
+    },
+    {
+      "path": "detectron2/data/datasets/coco_panoptic.py",
+      "bytes": 8977,
+      "sha256": "50f1e8c1763fef86c5df624d0af330898555cf6d18b7dc8e925aedb6a76ec8ee"
+    },
+    {
+      "path": "detectron2/data/datasets/coco_zeroshot_categories.py",
+      "bytes": 7835,
+      "sha256": "969dd0fb4fc4cf908282c12d91260922a03be1910a23eef75af106496facd53a"
+    },
+    {
+      "path": "detectron2/data/datasets/lvis.py",
+      "bytes": 12583,
+      "sha256": "d0b1ad1dba53fdaabb4c9f43e92613502a1102899c3d184fc976f456ba029b18"
+    },
+    {
+      "path": "detectron2/data/datasets/lvis_categories.py",
+      "bytes": 10705,
+      "sha256": "209c77c6b90815632202d4e56642200480b9798fc2ea22e278e0a9b9490a5180"
+    },
+    {
+      "path": "detectron2/data/datasets/lvis_v0_5_categories.py",
+      "bytes": 223757,
+      "sha256": "80079e1c48cc00e97f6dfc0237573cf46f35631dd52f3f4e353a442ee28fba0a"
+    },
+    {
+      "path": "detectron2/data/datasets/lvis_v1_categories.py",
+      "bytes": 219177,
+      "sha256": "2fd8d25a76e465710bb87af0f9d7591ff3292e2eeb14bf921a6277c4fe67fc6a"
+    },
+    {
+      "path": "detectron2/data/datasets/pascal_voc.py",
+      "bytes": 3128,
+      "sha256": "42bda2337ff1e8007d6087cbc17c59dc933e49200e4d2667823a56b032803826"
+    },
+    {
+      "path": "detectron2/data/datasets/README.md",
+      "bytes": 347,
+      "sha256": "c96415f60571b0c72128ece3bd31c2341dfa027a38549bc10bebf6f2c7d746fb"
+    },
+    {
+      "path": "detectron2/data/datasets/register_coco.py",
+      "bytes": 169,
+      "sha256": "c2d864ddbc0032bd78ebf2ddfd06c563d9900c5d0ce8cf175b8ff52a49ad017c"
+    },
+    {
+      "path": "detectron2/data/detection_utils.py",
+      "bytes": 21884,
+      "sha256": "84b67cf6a57ead3ddfe31d6e3b645a2584b6529dd2875b071a2610609cf89b26"
+    },
+    {
+      "path": "detectron2/data/samplers/__init__.py",
+      "bytes": 326,
+      "sha256": "dda5aa9949601882c4d0241f5b54bfb9a2ef677bb4f01ef4d6d118783a57b99c"
+    },
+    {
+      "path": "detectron2/data/samplers/distributed_sampler.py",
+      "bytes": 8239,
+      "sha256": "73e8024f8add378da5b041751787c4ad1574503e81be668af34dad4d5b0489be"
+    },
+    {
+      "path": "detectron2/data/samplers/grouped_batch_sampler.py",
+      "bytes": 1944,
+      "sha256": "e102484f5bd27ab828de8db66a726fa7bac27c3e78b966f5fbbd8d1f6ec9919c"
+    },
+    {
+      "path": "detectron2/data/transforms/__init__.py",
+      "bytes": 466,
+      "sha256": "c65590d54d5345fe48317ee40d0158d031bf73caa5b6b4631e35bbedbeabf592"
+    },
+    {
+      "path": "detectron2/data/transforms/augmentation.py",
+      "bytes": 14116,
+      "sha256": "dead4511608763f02e5390f685114cc4163eaf0da563da52fed140c92ca7e752"
+    },
+    {
+      "path": "detectron2/data/transforms/augmentation_impl.py",
+      "bytes": 21807,
+      "sha256": "ef0ee2010429f39e9ccd7429c476e235911a9e78b1642a7abb65648069817cdd"
+    },
+    {
+      "path": "detectron2/data/transforms/build.py",
+      "bytes": 2052,
+      "sha256": "e283ea085c06be6386a97fe288337459c216945a8cefc9e31ab0ead47732c93a"
+    },
+    {
+      "path": "detectron2/data/transforms/torchvision_transforms/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "detectron2/data/transforms/torchvision_transforms/functional.py",
+      "bytes": 57697,
+      "sha256": "48546f5f638364478aca66150f606250ed2d6b620024f51caab309371dc503e8"
+    },
+    {
+      "path": "detectron2/data/transforms/torchvision_transforms/functional_pil.py",
+      "bytes": 11347,
+      "sha256": "319652b97dc6edc5152bef5b4108a6dfb7308ed9306f651b0505b8a91a60d0ce"
+    },
+    {
+      "path": "detectron2/data/transforms/torchvision_transforms/functional_tensor.py",
+      "bytes": 35019,
+      "sha256": "0565343413ef760b42d8eaafcfeeeb56347fdcc47e980e3b90e267a3829f973c"
+    },
+    {
+      "path": "detectron2/data/transforms/torchvision_transforms/transforms.py",
+      "bytes": 79543,
+      "sha256": "825f917b71cf739f3c1f94488e9b57b94c8e258d85862d95c851d4b1877c301f"
+    },
+    {
+      "path": "detectron2/data/transforms/transform.py",
+      "bytes": 12629,
+      "sha256": "af0ae0f595985395f8147d9bd0115d872610cb37fccfcaad6719bbe66d3bf25d"
+    },
+    {
+      "path": "detectron2/engine/__init__.py",
+      "bytes": 340,
+      "sha256": "a03574900b053d3e83bd95e7d8a216ccd37450e70213424301cb41958f7851c5"
+    },
+    {
+      "path": "detectron2/engine/defaults.py",
+      "bytes": 27471,
+      "sha256": "608d0fda500da8f75a1f9dde65f114a71f5b8371a3fd74a892c04a165566f9b3"
+    },
+    {
+      "path": "detectron2/engine/hooks.py",
+      "bytes": 16853,
+      "sha256": "0462e33e4cc4b5dbe03ad6f16f961fb87a1a18d440a16281c4d8755b0331b4f3"
+    },
+    {
+      "path": "detectron2/engine/launch.py",
+      "bytes": 4088,
+      "sha256": "60fe5390ce30068ba2f7aab2b22a2e78030ba77f9e54a8fd56f95e0694dbdaf7"
+    },
+    {
+      "path": "detectron2/engine/train_loop.py",
+      "bytes": 13814,
+      "sha256": "1699ec1d0d94ee5b99a2e15f9df870f2ca625a7c664f4c7cca9f71c73ef90f4e"
+    },
+    {
+      "path": "detectron2/evaluation/__init__.py",
+      "bytes": 671,
+      "sha256": "7e916fa03704066c2ea478e2f2e32d508ec04ef8e98023d07e5d61abe5accb00"
+    },
+    {
+      "path": "detectron2/evaluation/cityscapes_evaluation.py",
+      "bytes": 8214,
+      "sha256": "2674aa703dcdb63a88db9f0cd4117ad906dd416880f7e8bfc7c21bb5c9e6248c"
+    },
+    {
+      "path": "detectron2/evaluation/coco_evaluation.py",
+      "bytes": 26271,
+      "sha256": "b8e5707255ad31bdb284a875ab57cdcb9cd7c841ffaa2e684b0785eb5b39cde9"
+    },
+    {
+      "path": "detectron2/evaluation/evaluator.py",
+      "bytes": 8966,
+      "sha256": "46f6c7310c32752c52dc70251b88dc48dfa3d948bc607763ea435c3febc90289"
+    },
+    {
+      "path": "detectron2/evaluation/fast_eval_api.py",
+      "bytes": 5225,
+      "sha256": "3532c0d24f7fb72481f0ed8be249d2ac3660d543a81516082387f99e97f3bb14"
+    },
+    {
+      "path": "detectron2/evaluation/lvis_evaluation.py",
+      "bytes": 14323,
+      "sha256": "dee12cc952bf336f6875b006d2d46b95e066b4668061927e85331e9f0efea92f"
+    },
+    {
+      "path": "detectron2/evaluation/panoptic_evaluation.py",
+      "bytes": 7500,
+      "sha256": "c5bcff01a3f64f6d3b8d29a8ec292db397f3498fb59878e3374899c15398f764"
+    },
+    {
+      "path": "detectron2/evaluation/pascal_voc_evaluation.py",
+      "bytes": 10862,
+      "sha256": "fef6051979fdcc1b6f1b73a344aa767c490258b4797c42ae236b5856db7d71b8"
+    },
+    {
+      "path": "detectron2/evaluation/rotated_coco_evaluation.py",
+      "bytes": 7608,
+      "sha256": "afe4b656843192873c61ccf85b76020178a77396df46f41db9b760a69ae4de5c"
+    },
+    {
+      "path": "detectron2/evaluation/sem_seg_evaluation.py",
+      "bytes": 7638,
+      "sha256": "8ffaab526be04e2f840e0954554518c7d4e00e7b9c1b2cf7cbd42d9ae8dde49c"
+    },
+    {
+      "path": "detectron2/evaluation/testing.py",
+      "bytes": 2707,
+      "sha256": "a0bcb4d9f9a5b8f4a629f2ea9ba228b81285cbc4736411f018ba777d2ea1a6b9"
+    },
+    {
+      "path": "detectron2/export/__init__.py",
+      "bytes": 217,
+      "sha256": "09f9d02c88da83a6866cdde3bd78cceffe0b4eeaabc9987ce1b30bdd02a68311"
+    },
+    {
+      "path": "detectron2/export/api.py",
+      "bytes": 10497,
+      "sha256": "71b1ce2e897761783af6c58705a52f886b89c25cba23e9e5ca492032717264bd"
+    },
+    {
+      "path": "detectron2/export/c10.py",
+      "bytes": 20860,
+      "sha256": "2f6913ec0800ade170342744ea75aa36f09eb0c04044b4aafc5dc36b76ea2977"
+    },
+    {
+      "path": "detectron2/export/caffe2_export.py",
+      "bytes": 7803,
+      "sha256": "d36f35fc5be18e0fb7c198c66464dcc0573c153ecd3172b3bb1fbe660ce72bd1"
+    },
+    {
+      "path": "detectron2/export/caffe2_inference.py",
+      "bytes": 6674,
+      "sha256": "77999b559bb557993900c9b0927230cb4a06e94d19fe4a153a32d333ab77d8a0"
+    },
+    {
+      "path": "detectron2/export/caffe2_modeling.py",
+      "bytes": 20947,
+      "sha256": "8ef6d24a41af811421c38a44bad5de7b5b50bdb13457394bb95484a979ce1b9e"
+    },
+    {
+      "path": "detectron2/export/caffe2_patch.py",
+      "bytes": 5033,
+      "sha256": "b908086d70cc3a1f096a2f542c6d8820759165757008df8f0ec0d6ca6c97cf51"
+    },
+    {
+      "path": "detectron2/export/flatten.py",
+      "bytes": 11644,
+      "sha256": "a4b48a29bfedf8bad61731368770150d5e695034d60b15d9ad7603b9ead14a30"
+    },
+    {
+      "path": "detectron2/export/README.md",
+      "bytes": 513,
+      "sha256": "7d241a9231593b7fd55f7fdc649112089415a19896735e3f33bd9b8262881de8"
+    },
+    {
+      "path": "detectron2/export/shared.py",
+      "bytes": 38071,
+      "sha256": "f64074d5824e0a907f8c2b31461f0710eaf4001620a6ac6201fbd19ec153e421"
+    },
+    {
+      "path": "detectron2/export/torchscript.py",
+      "bytes": 5106,
+      "sha256": "1bc974c3e4df939660535713163c143033ce19186b43099da810ad3759069b6a"
+    },
+    {
+      "path": "detectron2/export/torchscript_patch.py",
+      "bytes": 10523,
+      "sha256": "90163cb9ea67bc6b1f025a646370f659fa3bba664d212555cff4a0e18a2d2c02"
+    },
+    {
+      "path": "detectron2/layers/__init__.py",
+      "bytes": 734,
+      "sha256": "ee9a248fa46f2291e8731bccedc949edd725c8106acaf0788b2e6eec274296c0"
+    },
+    {
+      "path": "detectron2/layers/aspp.py",
+      "bytes": 5764,
+      "sha256": "3a9b3af8560d6f585a1fede14713786da4b57f409f947271d5eff18b98a00a27"
+    },
+    {
+      "path": "detectron2/layers/batch_norm.py",
+      "bytes": 10223,
+      "sha256": "fbf8ca0353476c0720a04dacafc4087eb30405a6aa59beb222ec345719c0333d"
+    },
+    {
+      "path": "detectron2/layers/blocks.py",
+      "bytes": 3024,
+      "sha256": "10a893dc3874c6083f9ac242bb661aa93fb38115b8208e2c306f50557adc9a41"
+    },
+    {
+      "path": "detectron2/layers/csrc/box_iou_rotated/box_iou_rotated.h",
+      "bytes": 973,
+      "sha256": "e0ee38dd7a6c5fc3d2cecab3f92140e48ef6c05d6c79241343bf78bf3f4376e4"
+    },
+    {
+      "path": "detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.cpp",
+      "bytes": 1090,
+      "sha256": "36fb1328a2e415bc9e56607f9d275ce12122890d5a38edd247ac73175b93ae21"
+    },
+    {
+      "path": "detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cuda.cu",
+      "bytes": 4454,
+      "sha256": "896ea23f033cd45af459c45e8c6727be2edae3b9099a2f169bd6a2952f138d03"
+    },
+    {
+      "path": "detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_utils.h",
+      "bytes": 10844,
+      "sha256": "4aa1148ddd195e00642176637cf2fe32680c6f85c57bed6c141eb4b7624ec90b"
+    },
+    {
+      "path": "detectron2/layers/csrc/cocoeval/cocoeval.cpp",
+      "bytes": 20746,
+      "sha256": "4c20dac38fff8b997da6962eb3128e81c9545e140740098f069d1ccc6d1b8435"
+    },
+    {
+      "path": "detectron2/layers/csrc/cocoeval/cocoeval.h",
+      "bytes": 3515,
+      "sha256": "ee882afd529e9b13e659e67de10a3e35cb7cf627a56920f1df87bcf05aade258"
+    },
+    {
+      "path": "detectron2/layers/csrc/cuda_version.cu",
+      "bytes": 622,
+      "sha256": "69706e3100c49b2492518f814aefc5aff91fa4e14d39db55bb64d2af2ea182d6"
+    },
+    {
+      "path": "detectron2/layers/csrc/deformable/deform_conv.h",
+      "bytes": 8244,
+      "sha256": "97312c3d3ecd52a0d3975ace7886b71b2620687503b48297c35747e27e92a7a2"
+    },
+    {
+      "path": "detectron2/layers/csrc/deformable/deform_conv_cuda.cu",
+      "bytes": 31785,
+      "sha256": "a10f559b9664f83de2da3096a07994f104c4cea4e36b18cd8b00fed039b32ed1"
+    },
+    {
+      "path": "detectron2/layers/csrc/deformable/deform_conv_cuda_kernel.cu",
+      "bytes": 44279,
+      "sha256": "b1a537059c7a2a3f2b99b3094534fb2c8d29f15050c188ce7ebe0abf0bbf9821"
+    },
+    {
+      "path": "detectron2/layers/csrc/nms_rotated/nms_rotated.h",
+      "bytes": 1074,
+      "sha256": "d2bec2434e8956106e6f8304236952fdf31f34fa45c4fde78fd930e66471f18d"
+    },
+    {
+      "path": "detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.cpp",
+      "bytes": 2307,
+      "sha256": "04c47952b30d58f0f1f8e8a17b13817ff8f730ce8cb062510eb8b74bc6791cb0"
+    },
+    {
+      "path": "detectron2/layers/csrc/nms_rotated/nms_rotated_cuda.cu",
+      "bytes": 4859,
+      "sha256": "1176f9223426e87efd32eab0a5517932be1b05ea5add318460bdeac15fdf79b2"
+    },
+    {
+      "path": "detectron2/layers/csrc/README.md",
+      "bytes": 122,
+      "sha256": "371d9f6640807707af998d0ca42eea9926f83cf68f00fe96133391313b16747b"
+    },
+    {
+      "path": "detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated.h",
+      "bytes": 2798,
+      "sha256": "09d5f593f292dfe279667b90c6c72a7574bdda0f33b54f2fed482da4396d1c45"
+    },
+    {
+      "path": "detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.cpp",
+      "bytes": 16031,
+      "sha256": "6bd4678569d133121c4bd6ac3a4ddc37dd2c891c2724965c83c88d33c3769d6e"
+    },
+    {
+      "path": "detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cuda.cu",
+      "bytes": 13876,
+      "sha256": "af34b7074bb060474aca0688732a7f9b5e2bd0ee68edf7a2cd872f7729d90ae6"
+    },
+    {
+      "path": "detectron2/layers/csrc/vision.cpp",
+      "bytes": 3419,
+      "sha256": "252dd5a469086c5b190475b5c63cbfedb030684fcd5a3f6e75d4c000d90765d7"
+    },
+    {
+      "path": "detectron2/layers/deform_conv.py",
+      "bytes": 16324,
+      "sha256": "ddaae1b09b01c7f908af7aa9abdd2af2798f47e0c370f90a46fab7121e1e33db"
+    },
+    {
+      "path": "detectron2/layers/mask_ops.py",
+      "bytes": 10307,
+      "sha256": "50984828affc7669b0d501519fe34cfd1a86b0387c5cb8ea82dada588f5b928a"
+    },
+    {
+      "path": "detectron2/layers/nms.py",
+      "bytes": 7008,
+      "sha256": "fe809985a442b3f2d1768e201bcd9050475a77d01071fe4d473c7cda19217cae"
+    },
+    {
+      "path": "detectron2/layers/roi_align.py",
+      "bytes": 3098,
+      "sha256": "f6e8ba49495f892c702c3616b2760c16821dca9288e094eedc1cc36da05ffc36"
+    },
+    {
+      "path": "detectron2/layers/roi_align_rotated.py",
+      "bytes": 3293,
+      "sha256": "4d50b9559532ebe92252ec511b9c8df86e1ad41d8c46da768c19bb367e84a2b7"
+    },
+    {
+      "path": "detectron2/layers/rotated_boxes.py",
+      "bytes": 648,
+      "sha256": "beb8e3d6aee79ca6dbfe97a3fe90ac778c303adb68d74d02bcf18866125aa856"
+    },
+    {
+      "path": "detectron2/layers/shape_spec.py",
+      "bytes": 661,
+      "sha256": "7d7baba40c9dee2d35fb73c8014b717e4dcef71b2d8bb916c8eed3fe33812fe4"
+    },
+    {
+      "path": "detectron2/layers/soft_nms.py",
+      "bytes": 10792,
+      "sha256": "1424c8ad53dc6649a3edb0c3db2e4a434fd0e9fda571a4af60410375546addb8"
+    },
+    {
+      "path": "detectron2/layers/wrappers.py",
+      "bytes": 3593,
+      "sha256": "ce335ff0b5565370f389bce996e3b35a6ec5bf1ef4217105661f8d5b4698763c"
+    },
+    {
+      "path": "detectron2/model_zoo/__init__.py",
+      "bytes": 451,
+      "sha256": "8e53007afbc025b9f1f5a5d94341d23a7ff5264514270e0698c684be54a59c7b"
+    },
+    {
+      "path": "detectron2/model_zoo/model_zoo.py",
+      "bytes": 10000,
+      "sha256": "dd822b9fc7b8ccf3c95c5fd8186130d19e1ac764ce5a006106ba3397eeeb4a01"
+    },
+    {
+      "path": "detectron2/modeling/__init__.py",
+      "bytes": 1465,
+      "sha256": "8050060b9cc134e8d1b8d6b72da570304e67b0ecff567cc18b58a0af370e64e9"
+    },
+    {
+      "path": "detectron2/modeling/anchor_generator.py",
+      "bytes": 15351,
+      "sha256": "03e86752a20e11b324f8215a9df89d6974cabe3c0146c00aee078b807c08dcd2"
+    },
+    {
+      "path": "detectron2/modeling/backbone/__init__.py",
+      "bytes": 618,
+      "sha256": "16fadcee02090f4ccdef65251ec95fd6ac61bee7eecdb3f434750e7dfacb5c9f"
+    },
+    {
+      "path": "detectron2/modeling/backbone/backbone.py",
+      "bytes": 1543,
+      "sha256": "58ec0fd6a85d28ee115d11546a7f395e3d910dfd1b8b60f9a925b55984d7b439"
+    },
+    {
+      "path": "detectron2/modeling/backbone/build.py",
+      "bytes": 1015,
+      "sha256": "766f95b8321ce37ad9b8ee660d73f380c6e2b09873d7fdaa41170404bd3bb85f"
+    },
+    {
+      "path": "detectron2/modeling/backbone/clip_backbone.py",
+      "bytes": 35121,
+      "sha256": "8d8ca2c4e0487360590aafe70b2b65f02ac3625f8937e3da1abb7d588acf135b"
+    },
+    {
+      "path": "detectron2/modeling/backbone/fpn.py",
+      "bytes": 10807,
+      "sha256": "d938cea7b7f5efd8abca99ec8dc846065cd1a14052cba254fe63aa7ddcbfd19e"
+    },
+    {
+      "path": "detectron2/modeling/backbone/regnet.py",
+      "bytes": 16656,
+      "sha256": "fc9eee23c74546c9e1e8368ab9b0e6bcc7b126bb42d22c3c1ad56962342e9489"
+    },
+    {
+      "path": "detectron2/modeling/backbone/resnet.py",
+      "bytes": 23688,
+      "sha256": "79746216596da34593d4d824410aaee87c16bc083965ce10ff932eb9d22b5b1a"
+    },
+    {
+      "path": "detectron2/modeling/backbone/vit.py",
+      "bytes": 911,
+      "sha256": "14916632338cdee6340ae67fc4cdecfe323fce050505cc003f4f90a227a3b95f"
+    },
+    {
+      "path": "detectron2/modeling/box_regression.py",
+      "bytes": 11171,
+      "sha256": "0ff4dddf7ac389a51d733c8cd5b187e33c02595cf607c3a16ec475ff2a299cb0"
+    },
+    {
+      "path": "detectron2/modeling/matcher.py",
+      "bytes": 6232,
+      "sha256": "397253adf7de113692aad567920dda5b9a6f76a6fe21834218d2ba063a5e9376"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/__init__.py",
+      "bytes": 546,
+      "sha256": "cb304cd61d3c6a12f549d642ccf65369d3d14ffdb4f16ec4c172cdee3696fa10"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/build.py",
+      "bytes": 814,
+      "sha256": "e87192547a57df07c847164193032cae2b3e9321243f09b5080f7508296d8553"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/clip_rcnn.py",
+      "bytes": 45231,
+      "sha256": "72cdbcb19011123368140a494ed6844fc706dc5eb90aff5bd7ce9e50af387219"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/devit.py",
+      "bytes": 86897,
+      "sha256": "c20fdabf2c9c678603e1ac632ce9104363f0b78e93267979f55081407fa36729"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/devit_0.py",
+      "bytes": 74805,
+      "sha256": "15b2bb7ec90bec1161f97b8d2c3640475bc199eeaea7f4c52beed42f5a845f40"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/devit_all.py",
+      "bytes": 90553,
+      "sha256": "777d62bccfea67027e5f9c8231fa6d1e86512e3f7a8a78d31044a0f219d9a7db"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/devit_dc.py",
+      "bytes": 88680,
+      "sha256": "e5e544922a0751b931d58cde735ac5f223ad8361e8b818947b12a0354da5089d"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/panoptic_fpn.py",
+      "bytes": 10335,
+      "sha256": "032e63581caabf7dde3f6caa925c63531b2b091de578051c1877a3e62ca95d77"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/rcnn.py",
+      "bytes": 16934,
+      "sha256": "59567f3996600bd4fa3a11de7b2087278f725f5aa05d1d28b4f38d62a1ed2fcc"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/retinanet.py",
+      "bytes": 26160,
+      "sha256": "cc307eba9d496a1c57f98f7f76305e8e5cd7ba5d78332bfbf6e800ba737b698e"
+    },
+    {
+      "path": "detectron2/modeling/meta_arch/semantic_seg.py",
+      "bytes": 9524,
+      "sha256": "7bc6483719ee20a6b068d8d918ca13d784fd76c50cd1e045ad67664754f6ed14"
+    },
+    {
+      "path": "detectron2/modeling/mmdet_wrapper.py",
+      "bytes": 11127,
+      "sha256": "e7aed0ac03b26d5319582a6b774e9ee5de459ad98acf1ee12400f17b68d6a538"
+    },
+    {
+      "path": "detectron2/modeling/poolers.py",
+      "bytes": 10986,
+      "sha256": "3dbae9b82ac999048c33fd00c88681df67c0f398d0048dc5b6b2add113cb6a15"
+    },
+    {
+      "path": "detectron2/modeling/postprocessing.py",
+      "bytes": 4015,
+      "sha256": "1983d8b331b391162b9023ae66b325f85fcfd0722de18854b6173be5e7e2a203"
+    },
+    {
+      "path": "detectron2/modeling/proposal_generator/__init__.py",
+      "bytes": 231,
+      "sha256": "38a19a7c68900805d5049aeeb63b2bdb070c5a6166eb6ccd4d6e89d2883234df"
+    },
+    {
+      "path": "detectron2/modeling/proposal_generator/build.py",
+      "bytes": 842,
+      "sha256": "73901eab4d905ed5f91e3d293d84651b86ac6cf703b01284a7497fdd6be274a8"
+    },
+    {
+      "path": "detectron2/modeling/proposal_generator/fewshot_rpn.py",
+      "bytes": 17450,
+      "sha256": "eaa280222b27d5aed66e579530ff9999a02bd77d7b620abcc1537fd1e71b261c"
+    },
+    {
+      "path": "detectron2/modeling/proposal_generator/proposal_utils.py",
+      "bytes": 8154,
+      "sha256": "4b3ff7e38065e6ba34167193836231e7b3a785b859d9feaf50f7a7c097cee8f5"
+    },
+    {
+      "path": "detectron2/modeling/proposal_generator/rpn.py",
+      "bytes": 24071,
+      "sha256": "93ca87db53a3d331ea764b701f18bbf61c19ad5e6312140729fa876195b1357d"
+    },
+    {
+      "path": "detectron2/modeling/proposal_generator/rrpn.py",
+      "bytes": 8650,
+      "sha256": "cde3dcc5938a7cff8f694a1cce5bac1401fc1db5165974424994653105562b62"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/__init__.py",
+      "bytes": 874,
+      "sha256": "f9f79d0cb8d2215a02bbc13de51d33e119c21d5d161ab023beff2d7bdb88869a"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/box_head.py",
+      "bytes": 4077,
+      "sha256": "596c9fea9b83a09b4029c858577bfb891ca40b4ce20818f7ef036b6f717ccc0b"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/cascade_rcnn.py",
+      "bytes": 12960,
+      "sha256": "f7364c2a40e9183017e06f8be2ed6a5bdce3eaa777501ec60ba6a7c8f504337d"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/clip_roi_heads.py",
+      "bytes": 29724,
+      "sha256": "9d8db5fd6a2a5e5faae6c6128ea9e90fa04e9cea4fb6339c35f3944ef2f317f5"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/fast_rcnn.py",
+      "bytes": 36847,
+      "sha256": "e54bde4af2893ea7b40eb70501f772f5ed283feeb67eafab0defeb3b6d481504"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/keypoint_head.py",
+      "bytes": 11156,
+      "sha256": "aee75a820576e31c5c5d5039514d0e0c33518c1b4354939dbcba247af386ff1d"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/mask_head.py",
+      "bytes": 11960,
+      "sha256": "3024b3b147f6e107d0ab1dbe7a355b11770841d33304d7276defaedc22ad9360"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/roi_heads.py",
+      "bytes": 38685,
+      "sha256": "0012a0686219c94e9c9a0f7ac642015e1d7b0a5822ef2a757c8b05c950ed0bd9"
+    },
+    {
+      "path": "detectron2/modeling/roi_heads/rotated_fast_rcnn.py",
+      "bytes": 11148,
+      "sha256": "bcefac7c4a3b987babf9aaf42631da7ffe4a29f7c01284db446116b7bc228c94"
+    },
+    {
+      "path": "detectron2/modeling/sampling.py",
+      "bytes": 2440,
+      "sha256": "93b6147fbed10a82ae394958158d55b9fe84ac1d4b6e12cec128cf7aa093d52e"
+    },
+    {
+      "path": "detectron2/modeling/test_time_augmentation.py",
+      "bytes": 12416,
+      "sha256": "f9ecb187e821c098f0107a16f4d8eae5cb9c90e5b3033337b4ba2f06791be1a7"
+    },
+    {
+      "path": "detectron2/projects/__init__.py",
+      "bytes": 1137,
+      "sha256": "95cc61be8ea0954b234120ed3bed542bc5f69471134e0941d6321c2db14225d9"
+    },
+    {
+      "path": "detectron2/projects/README.md",
+      "bytes": 110,
+      "sha256": "4739d74ee4b374300044415118f5e28fa4a76cfdd6b148fc30448ebce6532a3f"
+    },
+    {
+      "path": "detectron2/solver/__init__.py",
+      "bytes": 298,
+      "sha256": "cd4b30e19c902f5e0a38a83088a8a226309c913fc3bb0423623b1c6b93edae9f"
+    },
+    {
+      "path": "detectron2/solver/build.py",
+      "bytes": 9434,
+      "sha256": "5eb8946e00fa8cb2aa22f000f8984471d4f7ca494a1efeff8d737f1889265e89"
+    },
+    {
+      "path": "detectron2/solver/lr_scheduler.py",
+      "bytes": 8648,
+      "sha256": "c84b006bfb5cddaa9417d2c1363e770f93ea30716d7ba14d06003354e0ba472e"
+    },
+    {
+      "path": "detectron2/structures/__init__.py",
+      "bytes": 616,
+      "sha256": "adfab11638f3178ded7ada1a3d6ad5a55f466a2a855affab0f2f4386ac003f91"
+    },
+    {
+      "path": "detectron2/structures/boxes.py",
+      "bytes": 13880,
+      "sha256": "7e97588fb31469737bb16b97a705abf29a9f7d3b899e65cf673df2976f7785f0"
+    },
+    {
+      "path": "detectron2/structures/image_list.py",
+      "bytes": 4853,
+      "sha256": "829dcee08b7129bbfc5ea3d28736d2f5a18478cb2fa91f985a1f41cdd23f394a"
+    },
+    {
+      "path": "detectron2/structures/instances.py",
+      "bytes": 6449,
+      "sha256": "5707afb66830bf0d7c05cb364b58b4cca88d9f303fcfca70d37ae8f669d5e731"
+    },
+    {
+      "path": "detectron2/structures/keypoints.py",
+      "bytes": 8571,
+      "sha256": "f1a21ff8b46d7dec7235517cf37324f6bb9517c1d7d56df3f1de8f50a256a787"
+    },
+    {
+      "path": "detectron2/structures/masks.py",
+      "bytes": 19325,
+      "sha256": "3e07a05ff2b70b2214b3a73846cbda0bc2b457aaac60387eafce85a8a3b51b0c"
+    },
+    {
+      "path": "detectron2/structures/rotated_boxes.py",
+      "bytes": 18918,
+      "sha256": "3dc9f2e5eb56f5b9bdcedef6dc5465ac4609f17b0123643b9f6c61056a7f5986"
+    },
+    {
+      "path": "detectron2/structures/tsv_file.py",
+      "bytes": 12023,
+      "sha256": "4a4665c2496e5a96eed0df56a802d0bf9832d0164c445d0cd854fd2bba9fd62d"
+    },
+    {
+      "path": "detectron2/utils/__init__.py",
+      "bytes": 51,
+      "sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3"
+    },
+    {
+      "path": "detectron2/utils/analysis.py",
+      "bytes": 5089,
+      "sha256": "ad28455f02528ac3450fba31c7624ee517683c3d1ac2bf98df52fe8a50700d97"
+    },
+    {
+      "path": "detectron2/utils/collect_env.py",
+      "bytes": 7340,
+      "sha256": "beb17f2a5cc9df080ba561cc965818b13a01783c8fb65180c09b22ad8682a079"
+    },
+    {
+      "path": "detectron2/utils/colormap.py",
+      "bytes": 3616,
+      "sha256": "fafd80b643457bd65860ae73f6dc69ea12b7f77b013f7b60ca4a118bef8790cd"
+    },
+    {
+      "path": "detectron2/utils/comm.py",
+      "bytes": 11352,
+      "sha256": "6d94c5d8bd783ce6b244c784c8fc130648c5db7b99d4e45cca2badba745da035"
+    },
+    {
+      "path": "detectron2/utils/env.py",
+      "bytes": 5683,
+      "sha256": "00464567890232b1f5db42b605e6e7dcf1aca53ad209aba66bedccc8fd6f7257"
+    },
+    {
+      "path": "detectron2/utils/events.py",
+      "bytes": 17076,
+      "sha256": "1891d1406ad8e9f2310f9c359823bcd7fe03b4ce60695e1c0ceb1d5586bc7196"
+    },
+    {
+      "path": "detectron2/utils/file_io.py",
+      "bytes": 1189,
+      "sha256": "3162948ea8f19b05f085a0aa47d5ed05549340ff93df34c0c144ac4c2996d172"
+    },
+    {
+      "path": "detectron2/utils/logger.py",
+      "bytes": 7807,
+      "sha256": "4354dec90a47b96749fe7f8c8dece9823568e6d4a40d2e8d6dc115bce45e8325"
+    },
+    {
+      "path": "detectron2/utils/memory.py",
+      "bytes": 2583,
+      "sha256": "f6d5ecbe9ebc54e976d5bd868b82f645b6af9c8145b2269e26cbc084b83b5d4d"
+    },
+    {
+      "path": "detectron2/utils/README.md",
+      "bytes": 175,
+      "sha256": "9f079e9d79dd855c420c1622dca935b11a3a56ded1250f72eff49722b1b888e8"
+    },
+    {
+      "path": "detectron2/utils/registry.py",
+      "bytes": 1874,
+      "sha256": "bf850549c0f98340fe8b77eda48edf4901bce79efcb7f1d52394dabb3e84d82a"
+    },
+    {
+      "path": "detectron2/utils/serialize.py",
+      "bytes": 940,
+      "sha256": "ace1ea68d6aefe4eaf3721c1f7cb403383f72ea0837e542fcc8ec7734f93ce46"
+    },
+    {
+      "path": "detectron2/utils/testing.py",
+      "bytes": 4522,
+      "sha256": "85081a74f2a25ace863753c75700340548523264d0a090a9c360abd40533f9ad"
+    },
+    {
+      "path": "detectron2/utils/video_visualizer.py",
+      "bytes": 8889,
+      "sha256": "ec562c1cc8e41974d147544aa109fe2a7a84d53c5d3a8b89610529fbf67176b9"
+    },
+    {
+      "path": "detectron2/utils/visualizer.py",
+      "bytes": 49336,
+      "sha256": "838211029b471ac2def437d52a3036975907c75a5f25b9f2bfe0417853971df0"
+    },
+    {
+      "path": "lib/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/categories.py",
+      "bytes": 16960,
+      "sha256": "13802a8c68e997c06f6b0e6e8532133f0806e9c1209d9cccfde1da8ba3698cb9"
+    },
+    {
+      "path": "lib/data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/data/fewshot.py",
+      "bytes": 23025,
+      "sha256": "3dbcd9bb289e7883695cca323e9bc53e8ec16dd8ce252b19fedd86264ca6aa5b"
+    },
+    {
+      "path": "lib/data/lvis.py",
+      "bytes": 16314,
+      "sha256": "667b927b0878e7fc69966587002122d173566b82ee8313ba2983efff171fea71"
+    },
+    {
+      "path": "lib/data/ovdshot.py",
+      "bytes": 21591,
+      "sha256": "2839855f6f78dafc41e40254a0bcfe55b623fda45338f163472d6ec8e97da571"
+    },
+    {
+      "path": "lib/detr_mapper.py",
+      "bytes": 4363,
+      "sha256": "bc81129df655abf081703a3db0ebf58ba4a9b04aa7c9c63e6a8f4f4a82cc2150"
+    },
+    {
+      "path": "lib/dinov2/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lib/dinov2/layers/__init__.py",
+      "bytes": 414,
+      "sha256": "6dbf9db5fd20e694d01c7c6f4bb2709890b65d17d03f666df0fddc1c77a7af28"
+    },
+    {
+      "path": "lib/dinov2/layers/attention.py",
+      "bytes": 2528,
+      "sha256": "f58da25bc7c0d2483ce7f96cd0c8663a21b85683200b632e262eb50cea8ddd12"
+    },
+    {
+      "path": "lib/dinov2/layers/block.py",
+      "bytes": 9447,
+      "sha256": "f09732ae7e0cdb9629dfaab33e28dfbb196fbdb6d6fcdd5ba5dd7a81126d8eea"
+    },
+    {
+      "path": "lib/dinov2/layers/dino_head.py",
+      "bytes": 2010,
+      "sha256": "1a8dfb966458a85ba4807604a0842ed22e3ee69e0c20cebcdac99559cbd838a0"
+    },
+    {
+      "path": "lib/dinov2/layers/drop_path.py",
+      "bytes": 1160,
+      "sha256": "949100aac4d9c19c9d65319dbd362886c5d46a72d7586ba4fd500e9f1d51570c"
+    },
+    {
+      "path": "lib/dinov2/layers/layer_scale.py",
+      "bytes": 823,
+      "sha256": "356817b5d1390737128cbcc03a5333fd3060b73beae478772282ccb851d0ef85"
+    },
+    {
+      "path": "lib/dinov2/layers/mlp.py",
+      "bytes": 1272,
+      "sha256": "c18c5b3f021408597a473bb710070ec3fb3b39f5a2e42e88ae83ced425a608b5"
+    },
+    {
+      "path": "lib/dinov2/layers/patch_embed.py",
+      "bytes": 2832,
+      "sha256": "b3f82e19926c9cfb63f10136aca5e8a723bde1ad62dae1d04f90d405f9439baf"
+    },
+    {
+      "path": "lib/dinov2/layers/swiglu_ffn.py",
+      "bytes": 1897,
+      "sha256": "7b5f175d824ff928e0376eb54b1e3be1f9f594fbdd561326879a53c80b82179f"
+    },
+    {
+      "path": "lib/dinov2/pad.py",
+      "bytes": 989,
+      "sha256": "086379b80624e2ce94e8820441c11e9e4e03707ee8e8d39c2b48f423dce349a2"
+    },
+    {
+      "path": "lib/dinov2/vit.py",
+      "bytes": 16285,
+      "sha256": "ed40891d60789075d722944858b420506f73b52349e827291a0be2337bb369d2"
+    },
+    {
+      "path": "lib/prototype_learner.py",
+      "bytes": 15678,
+      "sha256": "8cda763602de8a3c3bd3a5bf22505910634133e8a42dc21d0c14e6bb81c0a7cb"
+    },
+    {
+      "path": "lib/regionprop.py",
+      "bytes": 6030,
+      "sha256": "22ffd4ef017e96b734dc7446a1c678e69e3f8fbc419f5d0e4eac4ec691c3aa82"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "logs/clipart1k_seed5.log",
+      "bytes": 55983,
+      "sha256": "dd78d959e35c3f890b9d90e95cae740aba120beccbf095f03e4ed1b662506136"
+    },
+    {
+      "path": "logs/dior_seed5.log",
+      "bytes": 258849,
+      "sha256": "f690bcb840f328cbb2c0cbe510a922dd564b13613854a2cee467a1584a4370b3"
+    },
+    {
+      "path": "logs/README.md",
+      "bytes": 280,
+      "sha256": "bcd11154437ca54ec3ea1cb4d7f4cf1706dcfbac8ea5ee70254cc61f131a901b"
+    },
+    {
+      "path": "main_results.sh",
+      "bytes": 584,
+      "sha256": "e9b7a0c4092d3b6549e80c25c36ee97cd28d9aad7397b521bab6a69e15b5a44c"
+    },
+    {
+      "path": "main_results_4gpus.sh",
+      "bytes": 578,
+      "sha256": "5fc26277276432a7b9d878843207180ab53df58fea4c544be15b1dcbcd0206f5"
+    },
+    {
+      "path": "main_results_devit.sh",
+      "bytes": 579,
+      "sha256": "99d00b23d657ca4fdfa86e5cccdbb52540330312ca46a5e253c9adaf65f23bf9"
+    },
+    {
+      "path": "main_results_eval.sh",
+      "bytes": 587,
+      "sha256": "32ca0ed0c4ef35edabe6631daedf8247a52181ef27a1de95752744c047310c54"
+    },
+    {
+      "path": "main_results_resume.sh",
+      "bytes": 645,
+      "sha256": "94ca0129893be247a1581b937710abe6bddbfea234ecbb50ef409f6cadfc372b"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 411,
+      "sha256": "ba612c0b9af40e887d6e2b8ad7908ea2b21acf7e4bcd559e3b2fea89bcee4691"
+    },
+    {
+      "path": "output/examples/clipart1k_seed5/metrics.json",
+      "bytes": 449,
+      "sha256": "5cad4ee995eef250ae5eee4df168775eb2611edb973dc09aaea82054a1377806"
+    },
+    {
+      "path": "output/examples/dior_seed5/metrics.json",
+      "bytes": 526,
+      "sha256": "c2c85d4d9df370ce8ef5010e9c7858682fe96e816603996b76c665899c89e26d"
+    },
+    {
+      "path": "output/examples/README.md",
+      "bytes": 229,
+      "sha256": "da1e27405d8a87abf219535af3dbaf2273812653c1d61ba3af3d2d89733f7e3b"
+    },
+    {
+      "path": "PACKAGE_README.txt",
+      "bytes": 215,
+      "sha256": "ff63746a94563a1bac0fe3acda27cc65e85444e7b97fbc16e915db6607bbeb15"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3971,
+      "sha256": "66c585753f4dbaba8f77620b5c1b88dff268291f85e048a730950ae4b0c00575"
+    },
+    {
+      "path": "README_UPSTREAM.md",
+      "bytes": 6252,
+      "sha256": "e1d1ef22dfe55116611656688ccc373e3e0c6a05eb40e861cfdd403a0a967ac3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 381,
+      "sha256": "d075379e49d26f7aa2b94e67dd8cf7e2d96c0162a669dad1986e66bac7e48f5c"
+    },
+    {
+      "path": "REVIEWER_CODE_AVAILABILITY.md",
+      "bytes": 959,
+      "sha256": "490b729dae7fd36eb2c2e86e14d1aa2f115736001635c4df26658301bbdc915b"
+    },
+    {
+      "path": "scripts/run_aadp_10shot.py",
+      "bytes": 2636,
+      "sha256": "bf741b55d2a5766127ac4cc38bd7f116653166602be40bbee68a872b52cd1d48"
+    },
+    {
+      "path": "setup.cfg",
+      "bytes": 931,
+      "sha256": "88fb8fd7edda86c124ba5189efe6823558ef91027891516f0cf48c1075c00c7f"
+    },
+    {
+      "path": "setup.py",
+      "bytes": 8707,
+      "sha256": "dcef06889808fb8e45009917bc9fcefe09c979dd97b6b4780e776e092a4d46ba"
+    },
+    {
+      "path": "single_demo.sh",
+      "bytes": 583,
+      "sha256": "4e24eafffa2e45e89d926184c9babd0f687738cc0c3c9c76a1a6b0bbe110530c"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 985,
+      "sha256": "99c88c126b7f66c5259874b26cfba5b41ac2d7c89a207f94d297bae1dcbf29bc"
+    },
+    {
+      "path": "tools/4_ours_box.py",
+      "bytes": 10591,
+      "sha256": "738b8120e1c0851aae2f2dd5ccd6b5f483a18489521b9e47492a462e6a31903a"
+    },
+    {
+      "path": "tools/4_vito_box.py",
+      "bytes": 10777,
+      "sha256": "cec23c5d13d4dcbacd17d0d76483c0101af5e76653f587518281cf217c1b0db3"
+    },
+    {
+      "path": "tools/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tools/cam_tools/0_demo_ours_cam.py",
+      "bytes": 5324,
+      "sha256": "0f878378f02921eec864d6427c466e4bc95418f6ea2130f3b83d11bebb3c5686"
+    },
+    {
+      "path": "tools/cam_tools/0_demo_vito_cam.py",
+      "bytes": 5316,
+      "sha256": "9e31c298a3a5d32d9326fc1479a0ead489e837bfd84d25f1e58a3a1d06d1fc1f"
+    },
+    {
+      "path": "tools/cam_tools/demo_0.py",
+      "bytes": 8569,
+      "sha256": "666030cbc67d3501e657181d1a682b69bce8b964782ea311925ff720f5ad91ff"
+    },
+    {
+      "path": "tools/cam_tools/test_gray.py",
+      "bytes": 246,
+      "sha256": "1566779d000698f14fa8ed052cac63a71ebc4062f9581658689dcef29aa02c07"
+    },
+    {
+      "path": "tools/combine_vit_rpn_weights.py",
+      "bytes": 2170,
+      "sha256": "dfaa67e3d2280a7f75265f18e7ce5d408fe4a625a44cee70d4acd2cf4427780b"
+    },
+    {
+      "path": "tools/extract_instance_prototypes.py",
+      "bytes": 12164,
+      "sha256": "f919b2b44152ce033f0a0fe19f6830f95d5ad5ae9fb47174ac881f95249d31b6"
+    },
+    {
+      "path": "tools/merge_splits.py",
+      "bytes": 736,
+      "sha256": "934c9907fde194a21848f5f361e127c97f2ed5f5dcd48ebc8b885a0f4d8eafbb"
+    },
+    {
+      "path": "tools/run_sinkhorn_cluster.py",
+      "bytes": 6369,
+      "sha256": "febea5f5bce0d0f8dde146bd97e8aa31af57b11f81cf91408747185b58a494f8"
+    },
+    {
+      "path": "tools/train_net.py",
+      "bytes": 8077,
+      "sha256": "6568e29e0e2b1ea4e009ea38ecf3d8e6cd16c2cb3e8c377e6894db8dc79fbbe2"
+    }
+  ],
+  "excluded": [
+    "datasets",
+    "weights",
+    "output checkpoints",
+    "logs from the full archive",
+    "checkpoints",
+    ".git",
+    "__pycache__",
+    "compiled extensions",
+    "generated images and arrays",
+    "backup variants"
+  ]
+}
